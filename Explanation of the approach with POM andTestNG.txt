@@ -12,7 +12,7 @@ Here I am use POM Framework with Data Drive Approach
 - At the end we need to run all my scripts with one click we convert all the test scripts into test suite and run the suit (Testng.xml) file,
 - Finally it generate HTML report in (test-output) folder of the how many test cases are got pass, skiped and Fail.
 
-Note: I am using my company's laptop so due to some Network secutity some and Use mobile device hotspot some times it takes time to load page and Test got skips thats why I am using some ChromeOptions and related arguments to load chrome fatser, As per my understanding here I am generating this data driven script.
+Note: I am using my company's laptop so due to some Network secutity protector and Use mobile device hotspot some times it takes time to load page.
 
 1. Verify HomePage Functionaliy	
 	- Load the objects (Home page, search page and Product detail page to naviagte specific page)
@@ -83,5 +83,5 @@ Steps to Follow
 Git hub URL
 https://github.com/bhaumikgohel/ecommerce
 
-Screen Recording URL
-https://app.screencast.com/rkslhZqs3XDDU
+Successful run
+https://app.screencast.com/N6YMVD5C0cFjE
