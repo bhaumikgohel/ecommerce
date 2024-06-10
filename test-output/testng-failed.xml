@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add To Cart Items]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Check Add To Cart Items(failed)">
+    <classes>
+      <class name="ecom.testcases.AddtoCartPageTest">
+        <methods>
+          <include name="Verify_Cart_Decrease_Qty_Test"/>
+          <include name="Click_on_Checkout_button_Test"/>
+          <include name="Verify_Cart_Qty_Increase_Test"/>
+          <include name="setup"/>
+          <include name="Terminate"/>
+        </methods>
+      </class> <!-- ecom.testcases.AddtoCartPageTest -->
+      <class name="ecom.testcases.CheckOutPageTest">
+        <methods>
+          <include name="VerifyCheckOutFunctionalitywithNagativeValueTest" invocation-numbers="1"/>
+          <include name="setup"/>
+          <include name="Terminate"/>
+        </methods>
+      </class> <!-- ecom.testcases.CheckOutPageTest -->
+      <class name="ecom.testcases.SearchPageTest">
+        <methods>
+          <include name="Verify_Invali_Search_Functionality_Test"/>
+          <include name="Verify_Product_On_Search_Page_Test"/>
+          <include name="Terminate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ecom.testcases.SearchPageTest -->
+    </classes>
+  </test> <!-- Check Add To Cart Items(failed) -->
+</suite> <!-- Failed suite [Add To Cart Items] -->

@@ -1,0 +1,81 @@
+Ecommerce Checkout Flow
+
+Senario : Automate the end to end process of any ecommerce website including searching for a product, adding it to cart and checkingout.
+
+Here I am use POM Framework with Data Drive Approach
+
+- There are few things which is never change throghout application like Path of excel, properties file, Key and value of driver execution,
+- There are few things repeated like Open browser, Enter URL, Maximize, delete cookies and chromeoption define this repeated action i am store inside the TestBase class and all the script are extends TestBase Class  (Inherit the properties) from same place,
+- While automate the application we required large data So that data I stored in .excel and access those data by using generic file handling (data driven)
+- All the elements are store in each page using @FindBy annotation and accessing them into test file using Page Objects,
+- In TestUtils (Generic method, Action methods) define and use in anywhere in program,
+- At the end we need to run all my scripts with one click we convert all the test scripts into test suite and run the suit (Testng.xml) file,
+- Finally it generate HTML report in (test-output) folder of the how many test cases are got pass, skiped and Fail.
+
+Note: I am using my company's laptop so due to some Network secutity some and Use mobile device hotspot some times it takes time to load page and Test got skips thats why I am using some ChromeOptions and related arguments to load chrome fatser, As per my understanding here I am generating this data driven script.
+
+1. Verify HomePage Functionaliy	
+	- Load the objects (Home page, search page and Product detail page to naviagte specific page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Title
+	- Check Logo
+	- Check Searchbox
+	- Check Cart icon
+	- Check Menus
+	- Check Image
+	- Check Search Data into Search box by Data driven using excel(data.xls) file.
+	- Check Click on Product 
+	- Check Footer Section
+
+2. Verify Product Detail Functionality
+	- Load Object (HomePage, Product Detail and Add to cart page using page chainging to Navigate specific page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Product title
+	- Check Logo
+	- Check Searchbox Functionality
+	- Check Navigation menu
+	- Check Click on Add to cart button (Navigate to Cart Page)
+	
+3. Verify Add to Cart Functionality
+	- Load Object (HomePage, Product Detail and Add to cart page, Cart Page and Check Out page using page chainging to Navigate specific page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Title
+	- Check Logo
+	- Check Product Name
+	- Check Product Price
+	- Check Cart Items count
+	- Check Navigation menu
+	- Check Increase QTY Functionality
+	- Check Decrease QTY Functionality
+	- Check Cart Page
+	
+4. Verify Cart Page Functionality
+	- Load Object (HomePage, Product DetailPage and Add to cart page and Cart Page  using page chainging to Navigate specific page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Cart page Heading
+	- Check Sub Heading
+	- Chek Cart items count (if cart is empty then redirect to the home page)
+	
+5. Verify Checkout page
+	- Load Object (HomePage, Product DetailPage and Add to cart page and Cart Page  using page chainging to Navigate specific page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Page title
+	- Check Required field validation
+	- Check with Requiredd field invalid and valid details
+	- Click on PayNow to Proceed for Checking out
+
+6. Verify Search Functionality with Valid and Invalid search items
+	- Load Object (HomePage and Search Page Object using Page chainging to Navigate Home page to Search Page)
+	- Initilize Base Class (Common properties and Method)
+	- Check Page Title
+	- Check logo
+	- Check With Valid Search Terms and verify product on grid
+	- Check with Invalid Search Terms and Verify Message
+
+
+Steps to Follow 
+- Naviagate to Ecommerce site
+- Search for Product using dara driven terms (Valid and Invalid)
+- Add product to the cart
+- Proceed to check out and Fill required details 
+- Verify Order confirmation (Enter required details)

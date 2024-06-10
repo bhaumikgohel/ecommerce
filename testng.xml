@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="Add To Cart Items">  
+  <test name="Check Add To Cart Items">  
+	
+    <classes>  
+      <class name="ecom.testcases.HomePageTest"></class>
+      <class name="ecom.testcases.ProductDetailsPageTest"></class>
+      <class name="ecom.testcases.AddtoCartPageTest"></class>
+      <class name="ecom.testcases.CartPageTest"></class>
+      <class name="ecom.testcases.CheckOutPageTest"></class>
+       <class name="ecom.testcases.SearchPageTest"></class>
+    </classes> 
+     
+  </test>  
+</suite>  
