@@ -64,6 +64,7 @@ public class HomePage extends TestBase{
 	}
 	
 	public boolean VerifyHomeMainImage() {
+		Testutil.WaitforElement(driver, mainimage, Duration.ofSeconds(5));
 		return mainimage.isDisplayed();
 	}
 	
@@ -105,6 +106,7 @@ public class HomePage extends TestBase{
 	}
 	
 	public boolean VerifyFooterSections() {
+		Testutil.ScrollSpecificElelemnt(Productheader);
 		return footersection.isDisplayed();
 	}
 

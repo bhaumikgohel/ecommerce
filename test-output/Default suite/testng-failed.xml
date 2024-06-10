@@ -5,9 +5,16 @@
     <classes>
       <class name="ecom.testcases.HomePageTest">
         <methods>
-          <include name="VerifyProduct"/>
+          <include name="Validate_Search_Functionality"/>
+          <include name="Verify_Product"/>
+          <include name="Verify_Cart_Test"/>
+          <include name="Verify_Home_Page_Logo_Test"/>
+          <include name="Verify_Footer_Section_Test"/>
+          <include name="Verify_Home_Page_Image_Test"/>
+          <include name="Verify_Navigation_Menu_Test"/>
+          <include name="Verify_Search_box_Test"/>
           <include name="Terminate"/>
-          <include name="VerifyFooterSectionTest"/>
+          <include name="Verify_Page_Home_Page_Title_Test"/>
           <include name="setup"/>
         </methods>
       </class> <!-- ecom.testcases.HomePageTest -->

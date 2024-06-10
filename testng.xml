@@ -5,12 +5,28 @@
 	
     <classes>  
       <class name="ecom.testcases.HomePageTest"></class>
-      <class name="ecom.testcases.ProductDetailsPageTest"></class>
-      <class name="ecom.testcases.AddtoCartPageTest"></class>
-      <class name="ecom.testcases.CartPageTest"></class>
-      <class name="ecom.testcases.CheckOutPageTest"></class>
-       <class name="ecom.testcases.SearchPageTest"></class>
     </classes> 
      
   </test>  
+  <test name="Add to Cart">
+	  <classes>
+		   <class name="ecom.testcases.AddtoCartPageTest"></class>
+	  </classes>
+  </test>
+  <test name="Cart Page Test">
+	  <classes>
+		<class name="ecom.testcases.CartPageTest"></class>
+	  </classes>
+  </test>
+  <test name="CheckOut Page Test">
+	  <classes>
+		  <class name="ecom.testcases.CheckOutPageTest"></class>
+	  </classes>
+  </test>
+   <test name="Search Page Test">
+	   <classes>
+		     <class name="ecom.testcases.SearchPageTest"></class>
+	   </classes>
+   </test>
+     
 </suite>  

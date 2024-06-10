@@ -3,30 +3,85 @@
 <suite name="Failed suite [Add To Cart Items]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Check Add To Cart Items(failed)">
     <classes>
+      <class name="ecom.testcases.HomePageTest">
+        <methods>
+          <include name="Verify_Product"/>
+          <include name="Verify_Footer_Section_Test"/>
+          <include name="Terminate"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ecom.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Check Add To Cart Items(failed) -->
+  <test thread-count="5" name="Product Detail(failed)">
+    <classes>
+      <class name="ecom.testcases.ProductDetailsPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="Verify_Navigation_Menu_Test"/>
+          <include name="Verify_Cart_Test"/>
+          <include name="Terminate"/>
+          <include name="Verify_Add_to_Cart_Functionality_Test"/>
+          <include name="Verify_Page_Logo_Test"/>
+          <include name="Verify_Searchbox_Test"/>
+        </methods>
+      </class> <!-- ecom.testcases.ProductDetailsPageTest -->
+    </classes>
+  </test> <!-- Product Detail(failed) -->
+  <test thread-count="5" name="Add to Cart(failed)">
+    <classes>
       <class name="ecom.testcases.AddtoCartPageTest">
         <methods>
           <include name="Verify_Cart_Decrease_Qty_Test"/>
+          <include name="Verify_Page_Logo_Test"/>
+          <include name="Verify_Searchbox_Test"/>
           <include name="Click_on_Checkout_button_Test"/>
           <include name="Verify_Cart_Qty_Increase_Test"/>
+          <include name="Verify_Page_Title_Test"/>
           <include name="setup"/>
+          <include name="Verify_CartPage_Text_Test"/>
+          <include name="Verify_Navigation_Menu_Test"/>
           <include name="Terminate"/>
         </methods>
       </class> <!-- ecom.testcases.AddtoCartPageTest -->
+    </classes>
+  </test> <!-- Add to Cart(failed) -->
+  <test thread-count="5" name="Cart Page Test(failed)">
+    <classes>
+      <class name="ecom.testcases.CartPageTest">
+        <methods>
+          <include name="Verify_Empty_Cart_Heading_Test"/>
+          <include name="setup"/>
+          <include name="terminate"/>
+          <include name="Verify_Empty_Cart_Items_Test"/>
+        </methods>
+      </class> <!-- ecom.testcases.CartPageTest -->
+    </classes>
+  </test> <!-- Cart Page Test(failed) -->
+  <test thread-count="5" name="CheckOut Page Test(failed)">
+    <classes>
       <class name="ecom.testcases.CheckOutPageTest">
         <methods>
-          <include name="VerifyCheckOutFunctionalitywithNagativeValueTest" invocation-numbers="1"/>
+          <include name="VerifyCheckOutFunctionalitywithNagativeValueTest"/>
+          <include name="CheckOutRequiredFieldValidationTest"/>
           <include name="setup"/>
+          <include name="Check_Check_Out_Page_Title_Test"/>
           <include name="Terminate"/>
         </methods>
       </class> <!-- ecom.testcases.CheckOutPageTest -->
+    </classes>
+  </test> <!-- CheckOut Page Test(failed) -->
+  <test thread-count="5" name="Search Page Test(failed)">
+    <classes>
       <class name="ecom.testcases.SearchPageTest">
         <methods>
           <include name="Verify_Invali_Search_Functionality_Test"/>
           <include name="Verify_Product_On_Search_Page_Test"/>
           <include name="Terminate"/>
+          <include name="Verify_Logo_Test"/>
           <include name="setup"/>
         </methods>
       </class> <!-- ecom.testcases.SearchPageTest -->
     </classes>
-  </test> <!-- Check Add To Cart Items(failed) -->
+  </test> <!-- Search Page Test(failed) -->
 </suite> <!-- Failed suite [Add To Cart Items] -->

@@ -1,67 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="34" passed="28" failed="1" skipped="5">
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T16:17:09 IST" name="Add To Cart Items" finished-at="2024-06-10T16:33:35 IST" duration-ms="986520">
+  <suite started-at="2024-06-10T19:07:19 IST" name="Add To Cart Items" finished-at="2024-06-10T19:18:11 IST" duration-ms="652204">
     <groups>
     </groups>
-    <test started-at="2024-06-10T16:17:09 IST" name="Check Add To Cart Items" finished-at="2024-06-10T16:33:35 IST" duration-ms="986520">
-      <class name="ecom.testcases.CartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:27:23 IST" name="setup" finished-at="2024-06-10T16:27:50 IST" duration-ms="27206" status="PASS">
+    <test started-at="2024-06-10T19:07:19 IST" name="Check Add To Cart Items" finished-at="2024-06-10T19:09:20 IST" duration-ms="120875">
+      <class name="ecom.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:19 IST" name="setup" finished-at="2024-06-10T19:07:28 IST" duration-ms="9163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Empty_Cart_Heading_Test()[pri:1, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:27:50 IST" name="Verify_Empty_Cart_Heading_Test" finished-at="2024-06-10T16:27:50 IST" duration-ms="115" status="PASS">
+        <test-method signature="Verify_Page_Home_Page_Title_Test()[pri:1, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:28 IST" name="Verify_Page_Home_Page_Title_Test" finished-at="2024-06-10T19:07:28 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Page_Home_Page_Title_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:28 IST" name="Terminate" finished-at="2024-06-10T19:07:29 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:29 IST" name="setup" finished-at="2024-06-10T19:07:38 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Home_Page_Logo_Test()[pri:2, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:38 IST" name="Verify_Home_Page_Logo_Test" finished-at="2024-06-10T19:07:38 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Home_Page_Logo_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:38 IST" name="Terminate" finished-at="2024-06-10T19:07:39 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:39 IST" name="setup" finished-at="2024-06-10T19:07:48 IST" duration-ms="8741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Search_box_Test()[pri:3, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="Verify_Search_box_Test" finished-at="2024-06-10T19:07:48 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Search_box_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="Terminate" finished-at="2024-06-10T19:07:48 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="setup" finished-at="2024-06-10T19:07:56 IST" duration-ms="8127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Cart_Test()[pri:4, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:56 IST" name="Verify_Cart_Test" finished-at="2024-06-10T19:07:56 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cart_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:56 IST" name="Terminate" finished-at="2024-06-10T19:07:57 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:57 IST" name="setup" finished-at="2024-06-10T19:08:06 IST" duration-ms="8777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T19:08:06 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Navigation_Menu_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="Terminate" finished-at="2024-06-10T19:08:06 IST" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="setup" finished-at="2024-06-10T19:08:16 IST" duration-ms="9660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Home_Page_Image_Test()[pri:6, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:16 IST" name="Verify_Home_Page_Image_Test" finished-at="2024-06-10T19:08:16 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Home_Page_Image_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:16 IST" name="Terminate" finished-at="2024-06-10T19:08:17 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:17 IST" name="setup" finished-at="2024-06-10T19:08:29 IST" duration-ms="12624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_Search_Functionality()[pri:7, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:29 IST" name="Validate_Search_Functionality" finished-at="2024-06-10T19:08:55 IST" duration-ms="25698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Search_Functionality -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:55 IST" name="Terminate" finished-at="2024-06-10T19:08:56 IST" duration-ms="930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:56 IST" name="setup" finished-at="2024-06-10T19:09:06 IST" duration-ms="10228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Product()[pri:8, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:06 IST" name="Verify_Product" finished-at="2024-06-10T19:09:09 IST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Product -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:09 IST" name="Terminate" finished-at="2024-06-10T19:09:10 IST" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:10 IST" name="setup" finished-at="2024-06-10T19:09:19 IST" duration-ms="9596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Footer_Section_Test()[pri:9, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:19 IST" name="Verify_Footer_Section_Test" finished-at="2024-06-10T19:09:19 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Footer_Section_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:19 IST" name="Terminate" finished-at="2024-06-10T19:09:20 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- ecom.testcases.HomePageTest -->
+    </test> <!-- Check Add To Cart Items -->
+    <test started-at="2024-06-10T19:09:20 IST" name="Add to Cart" finished-at="2024-06-10T19:12:10 IST" duration-ms="170265">
+      <class name="ecom.testcases.AddtoCartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:20 IST" name="setup" finished-at="2024-06-10T19:09:54 IST" duration-ms="34312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:54 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T19:09:54 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Page_Title_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:54 IST" name="Terminate" finished-at="2024-06-10T19:09:55 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:55 IST" name="setup" finished-at="2024-06-10T19:10:09 IST" duration-ms="14572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Page_Logo_Test()[pri:2, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:09 IST" name="Verify_Page_Logo_Test" finished-at="2024-06-10T19:10:10 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Page_Logo_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:10 IST" name="Terminate" finished-at="2024-06-10T19:10:10 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:10 IST" name="setup" finished-at="2024-06-10T19:10:26 IST" duration-ms="16056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Searchbox_Test()[pri:3, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:26 IST" name="Verify_Searchbox_Test" finished-at="2024-06-10T19:10:26 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Searchbox_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:26 IST" name="Terminate" finished-at="2024-06-10T19:10:27 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:27 IST" name="setup" finished-at="2024-06-10T19:10:49 IST" duration-ms="21456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_CartPage_Text_Test()[pri:4, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="Verify_CartPage_Text_Test" finished-at="2024-06-10T19:10:49 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_CartPage_Text_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="Terminate" finished-at="2024-06-10T19:10:49 IST" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="setup" finished-at="2024-06-10T19:11:07 IST" duration-ms="17616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:07 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T19:11:07 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Navigation_Menu_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:07 IST" name="Terminate" finished-at="2024-06-10T19:11:08 IST" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:08 IST" name="setup" finished-at="2024-06-10T19:11:23 IST" duration-ms="15877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Cart_Qty_Increase_Test()[pri:6, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:23 IST" name="Verify_Cart_Qty_Increase_Test" finished-at="2024-06-10T19:11:26 IST" duration-ms="2660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cart_Qty_Increase_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:26 IST" name="Terminate" finished-at="2024-06-10T19:11:27 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:27 IST" name="setup" finished-at="2024-06-10T19:11:39 IST" duration-ms="11722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Cart_Decrease_Qty_Test()[pri:7, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:39 IST" name="Verify_Cart_Decrease_Qty_Test" finished-at="2024-06-10T19:11:41 IST" duration-ms="2450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cart_Decrease_Qty_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:41 IST" name="Terminate" finished-at="2024-06-10T19:11:42 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:42 IST" name="setup" finished-at="2024-06-10T19:12:10 IST" duration-ms="27980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Click_on_Checkout_button_Test()[pri:8, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:12:10 IST" name="Click_on_Checkout_button_Test" finished-at="2024-06-10T19:12:10 IST" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_on_Checkout_button_Test -->
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:12:10 IST" name="Terminate" finished-at="2024-06-10T19:12:10 IST" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Terminate -->
+      </class> <!-- ecom.testcases.AddtoCartPageTest -->
+    </test> <!-- Add to Cart -->
+    <test started-at="2024-06-10T19:12:10 IST" name="Cart Page Test" finished-at="2024-06-10T19:13:29 IST" duration-ms="78418">
+      <class name="ecom.testcases.CartPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:10 IST" name="setup" finished-at="2024-06-10T19:12:30 IST" duration-ms="19504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_Empty_Cart_Heading_Test()[pri:1, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:30 IST" name="Verify_Empty_Cart_Heading_Test" finished-at="2024-06-10T19:12:30 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Empty_Cart_Heading_Test -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:27:50 IST" name="terminate" finished-at="2024-06-10T16:27:51 IST" duration-ms="594" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:30 IST" name="terminate" finished-at="2024-06-10T19:12:31 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:27:51 IST" name="setup" finished-at="2024-06-10T16:28:07 IST" duration-ms="15551" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:31 IST" name="setup" finished-at="2024-06-10T19:13:21 IST" duration-ms="49983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Empty_Cart_Items_Test()[pri:2, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:28:07 IST" name="Verify_Empty_Cart_Items_Test" finished-at="2024-06-10T16:28:09 IST" duration-ms="2033" status="PASS">
+        <test-method signature="Verify_Empty_Cart_Items_Test()[pri:2, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:13:21 IST" name="Verify_Empty_Cart_Items_Test" finished-at="2024-06-10T19:13:28 IST" duration-ms="7498" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Empty_Cart_Items_Test -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@272113c4]" started-at="2024-06-10T16:28:09 IST" name="terminate" finished-at="2024-06-10T16:28:09 IST" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:13:28 IST" name="terminate" finished-at="2024-06-10T19:13:29 IST" duration-ms="653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
       </class> <!-- ecom.testcases.CartPageTest -->
+    </test> <!-- Cart Page Test -->
+    <test started-at="2024-06-10T19:13:29 IST" name="CheckOut Page Test" finished-at="2024-06-10T19:17:21 IST" duration-ms="232486">
       <class name="ecom.testcases.CheckOutPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:28:09 IST" name="setup" finished-at="2024-06-10T16:28:46 IST" duration-ms="36565" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:29 IST" name="setup" finished-at="2024-06-10T19:13:48 IST" duration-ms="18785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Check_Check_Out_Page_Title_Test()[pri:1, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:28:46 IST" name="Check_Check_Out_Page_Title_Test" finished-at="2024-06-10T16:28:46 IST" duration-ms="19" status="PASS">
+        <test-method signature="Check_Check_Out_Page_Title_Test()[pri:1, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="Check_Check_Out_Page_Title_Test" finished-at="2024-06-10T19:13:48 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Check_Out_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:28:46 IST" name="Terminate" finished-at="2024-06-10T16:28:47 IST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="Terminate" finished-at="2024-06-10T19:13:48 IST" duration-ms="657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:28:47 IST" name="setup" finished-at="2024-06-10T16:29:03 IST" duration-ms="16235" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="setup" finished-at="2024-06-10T19:14:15 IST" duration-ms="26435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="CheckOutRequiredFieldValidationTest()[pri:2, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:03 IST" name="CheckOutRequiredFieldValidationTest" finished-at="2024-06-10T16:29:15 IST" duration-ms="12739" status="PASS">
+        <test-method signature="CheckOutRequiredFieldValidationTest()[pri:2, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:15 IST" name="CheckOutRequiredFieldValidationTest" finished-at="2024-06-10T19:14:27 IST" duration-ms="12372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckOutRequiredFieldValidationTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:15 IST" name="Terminate" finished-at="2024-06-10T16:29:16 IST" duration-ms="662" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:27 IST" name="Terminate" finished-at="2024-06-10T19:14:28 IST" duration-ms="1193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:16 IST" name="setup" finished-at="2024-06-10T16:29:29 IST" duration-ms="13096" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:29 IST" name="setup" finished-at="2024-06-10T19:15:41 IST" duration-ms="72790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:29 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T16:29:43 IST" duration-ms="13865" status="PASS">
+        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:41 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:15:55 IST" duration-ms="13500" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,15 +316,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:43 IST" name="Terminate" finished-at="2024-06-10T16:29:44 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:55 IST" name="Terminate" finished-at="2024-06-10T19:15:56 IST" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:29:44 IST" name="setup" finished-at="2024-06-10T16:30:06 IST" duration-ms="21679" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:56 IST" name="setup" finished-at="2024-06-10T19:16:25 IST" duration-ms="29335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:30:06 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T16:30:19 IST" duration-ms="13489" status="FAIL">
+        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:25 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:16:41 IST" duration-ms="16177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,92 +362,18 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='error-for-TextField5']"}
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a544aadaf411312bcd6a6bd64cba522a, findElement {using=xpath, value=//p[@id='error-for-TextField5']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51809/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a544aadaf411312bcd6a6bd64cba522a]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[@id='error-for-TextField5']"}
-  (Session info: chrome=125.0.6422.142)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a544aadaf411312bcd6a6bd64cba522a, findElement {using=xpath, value=//p[@id='error-for-TextField5']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51809}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51809/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a544aadaf411312bcd6a6bd64cba522a
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
-at com.pages.CheckoutPage.CheckFieldsValidationsMessagesWithNagativeValue(CheckoutPage.java:134)
-at ecom.testcases.CheckOutPageTest.VerifyCheckOutFunctionalitywithNagativeValueTest(CheckOutPageTest.java:69)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:30:19 IST" name="Terminate" finished-at="2024-06-10T16:30:20 IST" duration-ms="858" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:41 IST" name="Terminate" finished-at="2024-06-10T19:16:42 IST" duration-ms="864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:30:20 IST" name="setup" finished-at="2024-06-10T16:30:32 IST" duration-ms="11756" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:42 IST" name="setup" finished-at="2024-06-10T19:17:02 IST" duration-ms="19697" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:30:32 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T16:30:45 IST" duration-ms="13267" status="PASS">
+        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:17:02 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:17:21 IST" duration-ms="18923" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -274,876 +414,63 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@73e9cf30]" started-at="2024-06-10T16:30:45 IST" name="Terminate" finished-at="2024-06-10T16:30:46 IST" duration-ms="724" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:17:21 IST" name="Terminate" finished-at="2024-06-10T19:17:21 IST" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- ecom.testcases.CheckOutPageTest -->
-      <class name="ecom.testcases.AddtoCartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:22:23 IST" name="setup" finished-at="2024-06-10T16:22:40 IST" duration-ms="16819" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:22:40 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T16:22:40 IST" duration-ms="19" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:22:40 IST" name="Terminate" finished-at="2024-06-10T16:22:41 IST" duration-ms="690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:22:41 IST" name="setup" finished-at="2024-06-10T16:23:04 IST" duration-ms="22759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Logo_Test()[pri:2, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:04 IST" name="Verify_Page_Logo_Test" finished-at="2024-06-10T16:23:04 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:04 IST" name="Terminate" finished-at="2024-06-10T16:23:04 IST" duration-ms="564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:04 IST" name="setup" finished-at="2024-06-10T16:23:19 IST" duration-ms="15036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Searchbox_Test()[pri:3, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:19 IST" name="Verify_Searchbox_Test" finished-at="2024-06-10T16:23:19 IST" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Searchbox_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:19 IST" name="Terminate" finished-at="2024-06-10T16:23:20 IST" duration-ms="791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:20 IST" name="setup" finished-at="2024-06-10T16:23:58 IST" duration-ms="38169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_CartPage_Text_Test()[pri:4, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:58 IST" name="Verify_CartPage_Text_Test" finished-at="2024-06-10T16:23:58 IST" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_CartPage_Text_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:58 IST" name="Terminate" finished-at="2024-06-10T16:23:59 IST" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:23:59 IST" name="setup" finished-at="2024-06-10T16:24:14 IST" duration-ms="14843" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:24:14 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T16:24:14 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Navigation_Menu_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:24:14 IST" name="Terminate" finished-at="2024-06-10T16:24:15 IST" duration-ms="600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:24:15 IST" name="setup" finished-at="2024-06-10T16:27:23 IST" duration-ms="188402" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:410)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.pages.HomePage.Click_On_Product(HomePage.java:94)
-at ecom.testcases.AddtoCartPageTest.setup(AddtoCartPageTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
-... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Qty_Increase_Test()[pri:6, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Verify_Cart_Qty_Increase_Test" finished-at="2024-06-10T16:27:23 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:410)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.pages.HomePage.Click_On_Product(HomePage.java:94)
-at ecom.testcases.AddtoCartPageTest.setup(AddtoCartPageTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
-... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Qty_Increase_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017043586" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017043588" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Decrease_Qty_Test()[pri:7, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Verify_Cart_Decrease_Qty_Test" finished-at="2024-06-10T16:27:23 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:410)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.pages.HomePage.Click_On_Product(HomePage.java:94)
-at ecom.testcases.AddtoCartPageTest.setup(AddtoCartPageTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
-... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Decrease_Qty_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017043600" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017043602" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Click_on_Checkout_button_Test()[pri:8, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Click_on_Checkout_button_Test" finished-at="2024-06-10T16:27:23 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [94c14d1ad7f7d0c407debe5c1a000df0, clickElement {id=f.A08BE4F4D2116AB6A6CC78FAC1E1262C.d.596365F81C469EE10E79A249E0CBA32D.e.16}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (94c14d1ad7f7d0c407debe5c1a000df0)] -> xpath: //a[contains(text(),'HomeGalore Premium Document Organizer Bag')]]
-Session ID: 94c14d1ad7f7d0c407debe5c1a000df0
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:410)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:366)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at com.pages.HomePage.Click_On_Product(HomePage.java:94)
-at ecom.testcases.AddtoCartPageTest.setup(AddtoCartPageTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:393)
-... 48 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_on_Checkout_button_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@783a467b]" started-at="2024-06-10T16:27:23 IST" name="Terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017043613" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.AddtoCartPageTest -->
-      <class name="ecom.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:09 IST" name="setup" finished-at="2024-06-10T16:17:19 IST" duration-ms="10756" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Home_Page_Title_Test()[pri:1, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:19 IST" name="Verify_Page_Home_Page_Title_Test" finished-at="2024-06-10T16:17:20 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Home_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:20 IST" name="Terminate" finished-at="2024-06-10T16:17:20 IST" duration-ms="571" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:20 IST" name="setup" finished-at="2024-06-10T16:17:28 IST" duration-ms="7669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Home_Page_Logo_Test()[pri:2, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:28 IST" name="Verify_Home_Page_Logo_Test" finished-at="2024-06-10T16:17:28 IST" duration-ms="88" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Home_Page_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:28 IST" name="Terminate" finished-at="2024-06-10T16:17:28 IST" duration-ms="523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:28 IST" name="setup" finished-at="2024-06-10T16:17:36 IST" duration-ms="7245" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Search_box_Test()[pri:3, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:36 IST" name="Verify_Search_box_Test" finished-at="2024-06-10T16:17:36 IST" duration-ms="57" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Search_box_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:36 IST" name="Terminate" finished-at="2024-06-10T16:17:36 IST" duration-ms="516" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:36 IST" name="setup" finished-at="2024-06-10T16:17:43 IST" duration-ms="6424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Test()[pri:4, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:43 IST" name="Verify_Cart_Test" finished-at="2024-06-10T16:17:43 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:43 IST" name="Terminate" finished-at="2024-06-10T16:17:43 IST" duration-ms="504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:43 IST" name="setup" finished-at="2024-06-10T16:17:51 IST" duration-ms="8051" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:51 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T16:17:51 IST" duration-ms="67" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Navigation_Menu_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:51 IST" name="Terminate" finished-at="2024-06-10T16:17:52 IST" duration-ms="517" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:52 IST" name="setup" finished-at="2024-06-10T16:17:59 IST" duration-ms="6788" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Home_Page_Image_Test()[pri:6, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:59 IST" name="Verify_Home_Page_Image_Test" finished-at="2024-06-10T16:17:59 IST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Home_Page_Image_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:59 IST" name="Terminate" finished-at="2024-06-10T16:17:59 IST" duration-ms="567" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:17:59 IST" name="setup" finished-at="2024-06-10T16:18:39 IST" duration-ms="40068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Validate_Search_Functionality()[pri:7, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:18:39 IST" name="Validate_Search_Functionality" finished-at="2024-06-10T16:19:06 IST" duration-ms="26228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_Search_Functionality -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:19:06 IST" name="Terminate" finished-at="2024-06-10T16:19:07 IST" duration-ms="1052" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:19:07 IST" name="setup" finished-at="2024-06-10T16:19:33 IST" duration-ms="26299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Product()[pri:8, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:19:33 IST" name="Verify_Product" finished-at="2024-06-10T16:19:52 IST" duration-ms="19414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Product -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:19:52 IST" name="Terminate" finished-at="2024-06-10T16:19:53 IST" duration-ms="747" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:19:53 IST" name="setup" finished-at="2024-06-10T16:20:11 IST" duration-ms="17424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Footer_Section_Test()[pri:9, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:20:11 IST" name="Verify_Footer_Section_Test" finished-at="2024-06-10T16:20:11 IST" duration-ms="82" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Footer_Section_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@5a56cdac]" started-at="2024-06-10T16:20:11 IST" name="Terminate" finished-at="2024-06-10T16:20:11 IST" duration-ms="586" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.HomePageTest -->
+    </test> <!-- CheckOut Page Test -->
+    <test started-at="2024-06-10T19:17:21 IST" name="Search Page Test" finished-at="2024-06-10T19:18:11 IST" duration-ms="49850">
       <class name="ecom.testcases.SearchPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:30:46 IST" name="setup" finished-at="2024-06-10T16:30:55 IST" duration-ms="9263" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:21 IST" name="setup" finished-at="2024-06-10T19:17:31 IST" duration-ms="10202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:30:55 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T16:30:55 IST" duration-ms="17" status="PASS">
+        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:31 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T19:17:32 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:30:55 IST" name="Terminate" finished-at="2024-06-10T16:30:56 IST" duration-ms="585" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:32 IST" name="Terminate" finished-at="2024-06-10T19:17:32 IST" duration-ms="496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:30:56 IST" name="setup" finished-at="2024-06-10T16:31:04 IST" duration-ms="8115" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:32 IST" name="setup" finished-at="2024-06-10T19:17:44 IST" duration-ms="11820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Logo_Test()[pri:2, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:31:04 IST" name="Verify_Logo_Test" finished-at="2024-06-10T16:31:04 IST" duration-ms="79" status="PASS">
+        <test-method signature="Verify_Logo_Test()[pri:2, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:44 IST" name="Verify_Logo_Test" finished-at="2024-06-10T19:17:44 IST" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:31:04 IST" name="Terminate" finished-at="2024-06-10T16:31:04 IST" duration-ms="596" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:44 IST" name="Terminate" finished-at="2024-06-10T19:17:45 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:31:04 IST" name="setup" finished-at="2024-06-10T16:33:35 IST" duration-ms="150756" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at ecom.TestBase.initilization(TestBase.java:65)
-at ecom.testcases.SearchPageTest.setup(SearchPageTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:45 IST" name="setup" finished-at="2024-06-10T19:17:56 IST" duration-ms="11727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Product_On_Search_Page_Test()[pri:3, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:33:35 IST" name="Verify_Product_On_Search_Page_Test" finished-at="2024-06-10T16:33:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at ecom.TestBase.initilization(TestBase.java:65)
-at ecom.testcases.SearchPageTest.setup(SearchPageTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="Verify_Product_On_Search_Page_Test()[pri:3, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:56 IST" name="Verify_Product_On_Search_Page_Test" finished-at="2024-06-10T19:17:56 IST" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Product_On_Search_Page_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:33:35 IST" name="Terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017415678" status="SKIP">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:56 IST" name="Terminate" finished-at="2024-06-10T19:17:57 IST" duration-ms="582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:33:35 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017415681" status="SKIP">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:57 IST" name="setup" finished-at="2024-06-10T19:18:09 IST" duration-ms="11579" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Invali_Search_Functionality_Test()[pri:4, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:33:35 IST" name="Verify_Invali_Search_Functionality_Test" finished-at="2024-06-10T16:33:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=125.0.6422.142)
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e3aa22f78b57bc94987cce0b33679d81, findElement {using=xpath, value=//img[@class='lazyload desktop-img']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\BHAUMI~1.GOH\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52057/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e3aa22f78b57bc94987cce0b33679d81
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at ecom.TestBase.initilization(TestBase.java:65)
-at ecom.testcases.SearchPageTest.setup(SearchPageTest.java:26)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method signature="Verify_Invali_Search_Functionality_Test()[pri:4, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:18:09 IST" name="Verify_Invali_Search_Functionality_Test" finished-at="2024-06-10T19:18:11 IST" duration-ms="2116" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Invali_Search_Functionality_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@771a660]" started-at="2024-06-10T16:33:35 IST" name="Terminate" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1718017415689" status="SKIP">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:18:11 IST" name="Terminate" finished-at="2024-06-10T19:18:11 IST" duration-ms="519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- ecom.testcases.SearchPageTest -->
-      <class name="ecom.testcases.ProductDetailsPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:20:11 IST" name="setup" finished-at="2024-06-10T16:20:26 IST" duration-ms="14395" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:20:26 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T16:20:26 IST" duration-ms="18" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:20:26 IST" name="Terminate" finished-at="2024-06-10T16:20:26 IST" duration-ms="561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:20:26 IST" name="setup" finished-at="2024-06-10T16:21:08 IST" duration-ms="41800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Logo_Test()[pri:2, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:08 IST" name="Verify_Page_Logo_Test" finished-at="2024-06-10T16:21:08 IST" duration-ms="92" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:08 IST" name="Terminate" finished-at="2024-06-10T16:21:09 IST" duration-ms="569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:09 IST" name="setup" finished-at="2024-06-10T16:21:32 IST" duration-ms="23652" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Searchbox_Test()[pri:3, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:32 IST" name="Verify_Searchbox_Test" finished-at="2024-06-10T16:21:32 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Searchbox_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:32 IST" name="Terminate" finished-at="2024-06-10T16:21:33 IST" duration-ms="598" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:33 IST" name="setup" finished-at="2024-06-10T16:21:48 IST" duration-ms="15096" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Test()[pri:4, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:48 IST" name="Verify_Cart_Test" finished-at="2024-06-10T16:21:48 IST" duration-ms="71" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:48 IST" name="Terminate" finished-at="2024-06-10T16:21:49 IST" duration-ms="707" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:21:49 IST" name="setup" finished-at="2024-06-10T16:22:04 IST" duration-ms="15311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:22:04 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T16:22:04 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Navigation_Menu_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:22:04 IST" name="Terminate" finished-at="2024-06-10T16:22:05 IST" duration-ms="600" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:22:05 IST" name="setup" finished-at="2024-06-10T16:22:19 IST" duration-ms="13759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Add_to_Cart_Functionality_Test()[pri:6, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:22:19 IST" name="Verify_Add_to_Cart_Functionality_Test" finished-at="2024-06-10T16:22:23 IST" duration-ms="3908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Add_to_Cart_Functionality_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.ProductDetailsPageTest@7db12bb6]" started-at="2024-06-10T16:22:23 IST" name="Terminate" finished-at="2024-06-10T16:22:23 IST" duration-ms="690" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.ProductDetailsPageTest -->
-    </test> <!-- Check Add To Cart Items -->
+    </test> <!-- Search Page Test -->
   </suite> <!-- Add To Cart Items -->
 </testng-results>

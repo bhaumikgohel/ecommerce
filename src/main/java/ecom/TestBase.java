@@ -59,9 +59,9 @@ public static void initilization() {
 		
 		driver.get(prop.getProperty("url"));
 		
-		WebElement Mainimage = driver.findElement(By.xpath(prop.getProperty("homeopageimage")));
-		
-		Testutil.WaitforElement(driver, Mainimage, Duration.ofSeconds(30));
+//		WebElement Mainimage = driver.findElement(By.xpath(prop.getProperty("homeopageimage")));
+//		
+//		Testutil.WaitforElement(driver, Mainimage, Duration.ofSeconds(10));
 		
 	}
 }

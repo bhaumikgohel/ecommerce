@@ -3,6 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.pages.HomePage;
 import com.pages.ProductDetailPage;
@@ -15,6 +16,7 @@ public class HomePageTest extends TestBase{
 	HomePage homepageobj;
 	SearchPage searchpageobj;
 	ProductDetailPage productdetailpageobj;
+	SoftAssert sa = new SoftAssert();
 	
 	public HomePageTest() {
 		super();
@@ -33,26 +35,28 @@ public class HomePageTest extends TestBase{
 		
 		String title = homepageobj.VerifyHomePageTitle();
 		
-		Assert.assertEquals(title, "Home Galore","Title not matched");
+		sa.assertEquals(title, "Home Galore","Title not matched");
+		
 		
 	}
 	
 	@Test(priority=2)
 	public void Verify_Home_Page_Logo_Test() {
 		boolean logo = homepageobj.Verifylogo();
-		Assert.assertTrue(logo, "Site Logo Not displaying to user");
+		sa.assertTrue(logo,"Site Logo Not displaying to user");
 	}
 	
 	@Test(priority=3)
 	public void Verify_Search_box_Test() {
 		boolean Searchbox = homepageobj.VerifySearchbox();
-		Assert.assertTrue(Searchbox, "Searchbox not displaying to user");
+		sa.assertTrue(Searchbox, "Searchbox not displaying to user");
+
 	}
 	
 	@Test(priority=4)
 	public void Verify_Cart_Test() {
 		String Carticon = homepageobj.VerifyHomePageCartIcon();
-		Assert.assertEquals(Carticon, "MY CART");
+		sa.assertEquals(Carticon, "MY CART");
 	}
 	
 	@Test(priority=5)
@@ -64,7 +68,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority=6)
 	public void Verify_Home_Page_Image_Test() {
 		boolean Mainimage = homepageobj.VerifyHomeMainImage();
-		Assert.assertTrue(Mainimage, "Navigation Menu Not Displaying");
+		sa.assertTrue(Mainimage);
 	}
 	
 	@Test(priority=7)
@@ -85,6 +89,7 @@ public class HomePageTest extends TestBase{
 	
 	@AfterMethod
 	public void Terminate() {
+		sa.assertAll();
 		driver.quit();
 	}
 }
