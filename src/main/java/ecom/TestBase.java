@@ -43,14 +43,7 @@ public static void initilization() {
 		
 		if(Browsers.equals("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "D:\\Automation\\ecom\\driver\\chromedriver.exe");
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--disable-extensions");
-			
-			Map<String, Object> prefs = new HashMap<>();
-	        prefs.put("profile.managed_default_content_settings.images", 2);
-	        options.setExperimentalOption("prefs", prefs);
-			
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver();
 		}
 		else if(Browsers.equals("firefox")) {
 			System.setProperty("webdriver.gecko.driver","D:\\Automation\\ecom\\driver\\geckodriver.exe");

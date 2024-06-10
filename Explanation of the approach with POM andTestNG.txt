@@ -79,3 +79,9 @@ Steps to Follow
 - Add product to the cart
 - Proceed to check out and Fill required details 
 - Verify Order confirmation (Enter required details)
+
+Git hub URL
+https://github.com/bhaumikgohel/ecommerce
+
+Screen Recording URL
+https://app.screencast.com/rkslhZqs3XDDU
