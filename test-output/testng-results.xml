@@ -1,476 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T19:07:19 IST" name="Add To Cart Items" finished-at="2024-06-10T19:18:11 IST" duration-ms="652204">
+  <suite started-at="2024-06-12T16:45:54 IST" name="Add To Cart Items" finished-at="2024-06-12T16:47:39 IST" duration-ms="105234">
     <groups>
     </groups>
-    <test started-at="2024-06-10T19:07:19 IST" name="Check Add To Cart Items" finished-at="2024-06-10T19:09:20 IST" duration-ms="120875">
+    <test started-at="2024-06-12T16:45:54 IST" name="Check Add To Cart Items" finished-at="2024-06-12T16:47:39 IST" duration-ms="105234">
       <class name="ecom.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:19 IST" name="setup" finished-at="2024-06-10T19:07:28 IST" duration-ms="9163" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:45:54 IST" name="setup" finished-at="2024-06-12T16:46:03 IST" duration-ms="8827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Home_Page_Title_Test()[pri:1, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:28 IST" name="Verify_Page_Home_Page_Title_Test" finished-at="2024-06-10T19:07:28 IST" duration-ms="35" status="PASS">
+        <test-method signature="Verify_Page_Home_Page_Title_Test()[pri:1, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:03 IST" name="Verify_Page_Home_Page_Title_Test" finished-at="2024-06-12T16:46:03 IST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Page_Home_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:28 IST" name="Terminate" finished-at="2024-06-10T19:07:29 IST" duration-ms="549" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:03 IST" name="Terminate" finished-at="2024-06-12T16:46:04 IST" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:29 IST" name="setup" finished-at="2024-06-10T19:07:38 IST" duration-ms="9455" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:04 IST" name="setup" finished-at="2024-06-12T16:46:11 IST" duration-ms="7576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Home_Page_Logo_Test()[pri:2, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:38 IST" name="Verify_Home_Page_Logo_Test" finished-at="2024-06-10T19:07:38 IST" duration-ms="128" status="PASS">
+        <test-method signature="Verify_Home_Page_Logo_Test()[pri:2, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:11 IST" name="Verify_Home_Page_Logo_Test" finished-at="2024-06-12T16:46:11 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Home_Page_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:38 IST" name="Terminate" finished-at="2024-06-10T19:07:39 IST" duration-ms="440" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:11 IST" name="Terminate" finished-at="2024-06-12T16:46:12 IST" duration-ms="832" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:39 IST" name="setup" finished-at="2024-06-10T19:07:48 IST" duration-ms="8741" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:12 IST" name="setup" finished-at="2024-06-12T16:46:20 IST" duration-ms="7902" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Search_box_Test()[pri:3, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="Verify_Search_box_Test" finished-at="2024-06-10T19:07:48 IST" duration-ms="71" status="PASS">
+        <test-method signature="Verify_Search_box_Test()[pri:3, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:20 IST" name="Verify_Search_box_Test" finished-at="2024-06-12T16:46:20 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Search_box_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="Terminate" finished-at="2024-06-10T19:07:48 IST" duration-ms="552" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:20 IST" name="Terminate" finished-at="2024-06-12T16:46:21 IST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:48 IST" name="setup" finished-at="2024-06-10T19:07:56 IST" duration-ms="8127" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:21 IST" name="setup" finished-at="2024-06-12T16:46:27 IST" duration-ms="5790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Test()[pri:4, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:56 IST" name="Verify_Cart_Test" finished-at="2024-06-10T19:07:56 IST" duration-ms="57" status="PASS">
+        <test-method signature="Verify_Cart_Test()[pri:4, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:27 IST" name="Verify_Cart_Test" finished-at="2024-06-12T16:46:27 IST" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Cart_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:56 IST" name="Terminate" finished-at="2024-06-10T19:07:57 IST" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:27 IST" name="Terminate" finished-at="2024-06-12T16:46:28 IST" duration-ms="969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:07:57 IST" name="setup" finished-at="2024-06-10T19:08:06 IST" duration-ms="8777" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:28 IST" name="setup" finished-at="2024-06-12T16:46:34 IST" duration-ms="6102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T19:08:06 IST" duration-ms="103" status="PASS">
+        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:34 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-12T16:46:34 IST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Navigation_Menu_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="Terminate" finished-at="2024-06-10T19:08:06 IST" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:34 IST" name="Terminate" finished-at="2024-06-12T16:46:35 IST" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:06 IST" name="setup" finished-at="2024-06-10T19:08:16 IST" duration-ms="9660" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:35 IST" name="setup" finished-at="2024-06-12T16:46:42 IST" duration-ms="6830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Home_Page_Image_Test()[pri:6, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:16 IST" name="Verify_Home_Page_Image_Test" finished-at="2024-06-10T19:08:16 IST" duration-ms="293" status="PASS">
+        <test-method signature="Verify_Home_Page_Image_Test()[pri:6, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:42 IST" name="Verify_Home_Page_Image_Test" finished-at="2024-06-12T16:46:42 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Home_Page_Image_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:16 IST" name="Terminate" finished-at="2024-06-10T19:08:17 IST" duration-ms="519" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:42 IST" name="Terminate" finished-at="2024-06-12T16:46:43 IST" duration-ms="772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:17 IST" name="setup" finished-at="2024-06-10T19:08:29 IST" duration-ms="12624" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:43 IST" name="setup" finished-at="2024-06-12T16:46:51 IST" duration-ms="7927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validate_Search_Functionality()[pri:7, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:29 IST" name="Validate_Search_Functionality" finished-at="2024-06-10T19:08:55 IST" duration-ms="25698" status="PASS">
+        <test-method signature="Validate_Search_Functionality()[pri:7, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:46:51 IST" name="Validate_Search_Functionality" finished-at="2024-06-12T16:47:16 IST" duration-ms="24759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validate_Search_Functionality -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:55 IST" name="Terminate" finished-at="2024-06-10T19:08:56 IST" duration-ms="930" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:16 IST" name="Terminate" finished-at="2024-06-12T16:47:17 IST" duration-ms="1173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:08:56 IST" name="setup" finished-at="2024-06-10T19:09:06 IST" duration-ms="10228" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:17 IST" name="setup" finished-at="2024-06-12T16:47:25 IST" duration-ms="7657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Product()[pri:8, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:06 IST" name="Verify_Product" finished-at="2024-06-10T19:09:09 IST" duration-ms="2728" status="PASS">
+        <test-method signature="Verify_Product()[pri:8, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:25 IST" name="Verify_Product" finished-at="2024-06-12T16:47:28 IST" duration-ms="3275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Product -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:09 IST" name="Terminate" finished-at="2024-06-10T19:09:10 IST" duration-ms="611" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:28 IST" name="Terminate" finished-at="2024-06-12T16:47:29 IST" duration-ms="990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:10 IST" name="setup" finished-at="2024-06-10T19:09:19 IST" duration-ms="9596" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:29 IST" name="setup" finished-at="2024-06-12T16:47:38 IST" duration-ms="8734" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Verify_Footer_Section_Test()[pri:9, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:19 IST" name="Verify_Footer_Section_Test" finished-at="2024-06-10T19:09:19 IST" duration-ms="171" status="PASS">
+        <test-method signature="Verify_Footer_Section_Test()[pri:9, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:38 IST" name="Verify_Footer_Section_Test" finished-at="2024-06-12T16:47:38 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Footer_Section_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-10T19:09:19 IST" name="Terminate" finished-at="2024-06-10T19:09:20 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.HomePageTest@618425b5]" started-at="2024-06-12T16:47:38 IST" name="Terminate" finished-at="2024-06-12T16:47:39 IST" duration-ms="1081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Terminate -->
       </class> <!-- ecom.testcases.HomePageTest -->
     </test> <!-- Check Add To Cart Items -->
-    <test started-at="2024-06-10T19:09:20 IST" name="Add to Cart" finished-at="2024-06-10T19:12:10 IST" duration-ms="170265">
-      <class name="ecom.testcases.AddtoCartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:20 IST" name="setup" finished-at="2024-06-10T19:09:54 IST" duration-ms="34312" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:54 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T19:09:54 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:54 IST" name="Terminate" finished-at="2024-06-10T19:09:55 IST" duration-ms="548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:09:55 IST" name="setup" finished-at="2024-06-10T19:10:09 IST" duration-ms="14572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Logo_Test()[pri:2, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:09 IST" name="Verify_Page_Logo_Test" finished-at="2024-06-10T19:10:10 IST" duration-ms="87" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:10 IST" name="Terminate" finished-at="2024-06-10T19:10:10 IST" duration-ms="693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:10 IST" name="setup" finished-at="2024-06-10T19:10:26 IST" duration-ms="16056" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Searchbox_Test()[pri:3, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:26 IST" name="Verify_Searchbox_Test" finished-at="2024-06-10T19:10:26 IST" duration-ms="109" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Searchbox_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:26 IST" name="Terminate" finished-at="2024-06-10T19:10:27 IST" duration-ms="741" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:27 IST" name="setup" finished-at="2024-06-10T19:10:49 IST" duration-ms="21456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_CartPage_Text_Test()[pri:4, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="Verify_CartPage_Text_Test" finished-at="2024-06-10T19:10:49 IST" duration-ms="143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_CartPage_Text_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="Terminate" finished-at="2024-06-10T19:10:49 IST" duration-ms="575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:10:49 IST" name="setup" finished-at="2024-06-10T19:11:07 IST" duration-ms="17616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Navigation_Menu_Test()[pri:5, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:07 IST" name="Verify_Navigation_Menu_Test" finished-at="2024-06-10T19:11:07 IST" duration-ms="85" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Navigation_Menu_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:07 IST" name="Terminate" finished-at="2024-06-10T19:11:08 IST" duration-ms="584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:08 IST" name="setup" finished-at="2024-06-10T19:11:23 IST" duration-ms="15877" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Qty_Increase_Test()[pri:6, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:23 IST" name="Verify_Cart_Qty_Increase_Test" finished-at="2024-06-10T19:11:26 IST" duration-ms="2660" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Qty_Increase_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:26 IST" name="Terminate" finished-at="2024-06-10T19:11:27 IST" duration-ms="693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:27 IST" name="setup" finished-at="2024-06-10T19:11:39 IST" duration-ms="11722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Cart_Decrease_Qty_Test()[pri:7, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:39 IST" name="Verify_Cart_Decrease_Qty_Test" finished-at="2024-06-10T19:11:41 IST" duration-ms="2450" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Cart_Decrease_Qty_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:41 IST" name="Terminate" finished-at="2024-06-10T19:11:42 IST" duration-ms="547" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:11:42 IST" name="setup" finished-at="2024-06-10T19:12:10 IST" duration-ms="27980" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Click_on_Checkout_button_Test()[pri:8, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:12:10 IST" name="Click_on_Checkout_button_Test" finished-at="2024-06-10T19:12:10 IST" duration-ms="156" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_on_Checkout_button_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.AddtoCartPageTest@38cee291]" started-at="2024-06-10T19:12:10 IST" name="Terminate" finished-at="2024-06-10T19:12:10 IST" duration-ms="537" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.AddtoCartPageTest -->
-    </test> <!-- Add to Cart -->
-    <test started-at="2024-06-10T19:12:10 IST" name="Cart Page Test" finished-at="2024-06-10T19:13:29 IST" duration-ms="78418">
-      <class name="ecom.testcases.CartPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:10 IST" name="setup" finished-at="2024-06-10T19:12:30 IST" duration-ms="19504" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Empty_Cart_Heading_Test()[pri:1, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:30 IST" name="Verify_Empty_Cart_Heading_Test" finished-at="2024-06-10T19:12:30 IST" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Empty_Cart_Heading_Test -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:30 IST" name="terminate" finished-at="2024-06-10T19:12:31 IST" duration-ms="648" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:12:31 IST" name="setup" finished-at="2024-06-10T19:13:21 IST" duration-ms="49983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Empty_Cart_Items_Test()[pri:2, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:13:21 IST" name="Verify_Empty_Cart_Items_Test" finished-at="2024-06-10T19:13:28 IST" duration-ms="7498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Empty_Cart_Items_Test -->
-        <test-method is-config="true" signature="terminate()[pri:0, instance:ecom.testcases.CartPageTest@1ffaf86]" started-at="2024-06-10T19:13:28 IST" name="terminate" finished-at="2024-06-10T19:13:29 IST" duration-ms="653" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- terminate -->
-      </class> <!-- ecom.testcases.CartPageTest -->
-    </test> <!-- Cart Page Test -->
-    <test started-at="2024-06-10T19:13:29 IST" name="CheckOut Page Test" finished-at="2024-06-10T19:17:21 IST" duration-ms="232486">
-      <class name="ecom.testcases.CheckOutPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:29 IST" name="setup" finished-at="2024-06-10T19:13:48 IST" duration-ms="18785" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Check_Check_Out_Page_Title_Test()[pri:1, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="Check_Check_Out_Page_Title_Test" finished-at="2024-06-10T19:13:48 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Check_Check_Out_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="Terminate" finished-at="2024-06-10T19:13:48 IST" duration-ms="657" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:13:48 IST" name="setup" finished-at="2024-06-10T19:14:15 IST" duration-ms="26435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="CheckOutRequiredFieldValidationTest()[pri:2, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:15 IST" name="CheckOutRequiredFieldValidationTest" finished-at="2024-06-10T19:14:27 IST" duration-ms="12372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckOutRequiredFieldValidationTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:27 IST" name="Terminate" finished-at="2024-06-10T19:14:28 IST" duration-ms="1193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:14:29 IST" name="setup" finished-at="2024-06-10T19:15:41 IST" duration-ms="72790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:41 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:15:55 IST" duration-ms="13500" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhaumik]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bhaumik]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Gohel]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Gota VasantNagar]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Ahmedabad]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:55 IST" name="Terminate" finished-at="2024-06-10T19:15:56 IST" duration-ms="728" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:15:56 IST" name="setup" finished-at="2024-06-10T19:16:25 IST" duration-ms="29335" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:25 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:16:41 IST" duration-ms="16177" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kartik]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kartik]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Arya]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Aryan Appartment]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Bhavnagar]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:41 IST" name="Terminate" finished-at="2024-06-10T19:16:42 IST" duration-ms="864" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:16:42 IST" name="setup" finished-at="2024-06-10T19:17:02 IST" duration-ms="19697" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyCheckOutFunctionalitywithNagativeValueTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:17:02 IST" name="VerifyCheckOutFunctionalitywithNagativeValueTest" data-provider="getCheckOutData" finished-at="2024-06-10T19:17:21 IST" duration-ms="18923" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nikunj]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Nikunj]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Trivedi]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Trivedi]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Rajkot]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[0.0]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyCheckOutFunctionalitywithNagativeValueTest -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.CheckOutPageTest@644baf4a]" started-at="2024-06-10T19:17:21 IST" name="Terminate" finished-at="2024-06-10T19:17:21 IST" duration-ms="703" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.CheckOutPageTest -->
-    </test> <!-- CheckOut Page Test -->
-    <test started-at="2024-06-10T19:17:21 IST" name="Search Page Test" finished-at="2024-06-10T19:18:11 IST" duration-ms="49850">
-      <class name="ecom.testcases.SearchPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:21 IST" name="setup" finished-at="2024-06-10T19:17:31 IST" duration-ms="10202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Page_Title_Test()[pri:1, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:31 IST" name="Verify_Page_Title_Test" finished-at="2024-06-10T19:17:32 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Page_Title_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:32 IST" name="Terminate" finished-at="2024-06-10T19:17:32 IST" duration-ms="496" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:32 IST" name="setup" finished-at="2024-06-10T19:17:44 IST" duration-ms="11820" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Logo_Test()[pri:2, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:44 IST" name="Verify_Logo_Test" finished-at="2024-06-10T19:17:44 IST" duration-ms="120" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Logo_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:44 IST" name="Terminate" finished-at="2024-06-10T19:17:45 IST" duration-ms="558" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:45 IST" name="setup" finished-at="2024-06-10T19:17:56 IST" duration-ms="11727" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Product_On_Search_Page_Test()[pri:3, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:56 IST" name="Verify_Product_On_Search_Page_Test" finished-at="2024-06-10T19:17:56 IST" duration-ms="110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Product_On_Search_Page_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:56 IST" name="Terminate" finished-at="2024-06-10T19:17:57 IST" duration-ms="582" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:17:57 IST" name="setup" finished-at="2024-06-10T19:18:09 IST" duration-ms="11579" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_Invali_Search_Functionality_Test()[pri:4, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:18:09 IST" name="Verify_Invali_Search_Functionality_Test" finished-at="2024-06-10T19:18:11 IST" duration-ms="2116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Invali_Search_Functionality_Test -->
-        <test-method is-config="true" signature="Terminate()[pri:0, instance:ecom.testcases.SearchPageTest@76a4ebf2]" started-at="2024-06-10T19:18:11 IST" name="Terminate" finished-at="2024-06-10T19:18:11 IST" duration-ms="519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Terminate -->
-      </class> <!-- ecom.testcases.SearchPageTest -->
-    </test> <!-- Search Page Test -->
   </suite> <!-- Add To Cart Items -->
 </testng-results>

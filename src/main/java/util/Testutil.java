@@ -78,13 +78,12 @@ public class Testutil extends ecom.TestBase {
         return searchTerms;
     }
 	
-	
 	public static void capturescreenshot(WebDriver driver) throws IOException
 	{
 		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		System.out.println(source);
 		
-		File Destination = new File("D:\\Automation\\ecom\\screenshot");
+		File Destination = new File("D:\\Automation\\ecom\\screenshot"+ Math.random());
 		
 		FileUtils.copyFile(source, Destination);
 		
