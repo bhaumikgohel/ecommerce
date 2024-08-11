@@ -26,7 +26,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Testutil extends ecom.TestBase {
 	
 
-	public static String TESTDATA_FILE = "D:\\Automation\\ecom\\src\\main\\java\\testdata\\Data.xls";
+	public static String TESTDATA_FILE = "D:\\Automation\\e2logy\\src\\main\\java\\e2logy\\Resource\\credentials.xls";
 	
 	static Workbook book;
 	static Sheet sheet;
